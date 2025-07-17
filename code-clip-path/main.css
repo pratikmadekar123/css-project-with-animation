@@ -1,13 +1,15 @@
 body {
-    position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .box {
   position: relative;
   width: 200px;
   height: 300px;
   background-color: red;
-  clip-path: path("M 10,50 L 90, 50 A 10,10 0,0,0  100,40 L 100,10 A 10,10 0 0 1 110, 0 L 190, 0 A 10,10 0 0 1 200, 10 L 200, 190 A 10,10 0 0 1 190, 200 L 10 , 200 A 10,10 0 0 1 0, 190 L 0, 60 A 10,10 0 0 1  10, 50 Z");
+  clip-path: path(
+    "M 10,50 L 90, 50 A 10,10 0,0,0  100,40 L 100,10 A 10,10 0 0 1 110, 0 L 190, 0 A 10,10 0 0 1 200, 10 L 200, 190 A 10,10 0 0 1 190, 200 L 10 , 200 A 10,10 0 0 1 0, 190 L 0, 60 A 10,10 0 0 1  10, 50 Z"
+  );
 }
