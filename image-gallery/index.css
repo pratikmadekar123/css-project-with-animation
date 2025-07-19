@@ -11,6 +11,8 @@ img {
   width: 100%;
   margin-bottom: 1em;
 }
+
 .list {
-  column-count: 3;
+  /* column-count: 3; */ /* used to create columns*/
+  columns: 300px 4; /* used to show colums having 300px width and it is responsive as per device  */
 }
