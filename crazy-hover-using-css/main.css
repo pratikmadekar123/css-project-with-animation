@@ -18,13 +18,13 @@ body {
   transform: perspective(1000px);
 }
 .list .item {
-  width:250px;
+  width: 250px;
   filter: brightness(0);
   transition: 0.5s;
 }
 .list .item:hover {
   filter: brightness(1);
-  transform: translateZ(200px);  
+  transform: translateZ(200px);
 }
 .list .item:hover + * {
   filter: brightness(0.6);
@@ -48,5 +48,5 @@ body {
 }
 .list .item:has(+ * + *:hover) {
   filter: brightness(0.4);
-    transform: translateZ(30px) rotateY(-10deg);
+  transform: translateZ(30px) rotateY(-10deg);
 }
